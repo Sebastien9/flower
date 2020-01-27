@@ -1,0 +1,213 @@
+header {
+    background-image: url(../image/fdb.jpg);
+    background-size: 100vw;
+    height: 99.9vh;
+    background-repeat: no-repeat;
+    margin-bottom: 1em;
+    padding-top: 17em;
+}
+
+#menu1 {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+}
+
+#menu1 a {
+    margin-right: 1em;
+    color: green;
+}
+
+@font-face {
+    font-family: "Ma Super Fonte";
+    src: url('../font/WildFlowerBold.ttf');
+}
+
+h2 {
+    font-family: "Ma Super Fonte";
+    margin-right: 33em;
+}
+
+#menu {
+    display: flex;
+    justify-content: space-between;
+    color: green;
+    position: fixed;
+    margin-top: -16em;
+    z-index: 1;
+}
+
+nav {}
+
+#titre1 {
+    color: white;
+    font-size: 8em;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    background-color: green;
+    opacity: 0.4;
+    border: 2px white dashed;
+    width: 5em;
+    margin: auto;
+}
+
+#titre {}
+
+h3 {
+    text-align: center;
+    color: green;
+    font-family: 'Courgette', cursive;
+}
+
+.tab {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+i {
+    width: 5em;
+    margin: auto;
+    font-size: 2em;
+    color: green;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+#fond1 {
+    background-image: url(../image/bg3.jpg);
+    background-size: 100vw;
+    background-attachment: fixed;
+    height: 30em;
+    padding-top: 15em;
+    padding-left: 8em;
+    padding-right: 8em;
+    margin-bottom: 1em;
+}
+
+#slog {
+    opacity: 0.4;
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    border: 2px white dashed;
+    color: white;
+    background-color: green;
+}
+
+img {
+    width: 12em;
+}
+
+.rounded-circle {
+    border: 15px green solid;
+}
+
+#team {
+    margin-top: 2em;
+}
+
+.col-sm {
+    text-align: center;
+}
+
+h4 {
+    font-family: 'Courgette', cursive;
+}
+
+.p1 {
+    font-style: italic;
+}
+
+.fa-facebook-f {
+    position: relative;
+    bottom: 12.5em;
+    border-radius: 15px;
+    font-size: 2em;
+    right: 4.5em;
+}
+
+.fa-twitter {
+    position: relative;
+    bottom: 15.5em;
+    border-radius: 15px;
+    font-size: 2em;
+    right: 2.5em;
+}
+
+.fa-instagram {
+    position: relative;
+    bottom: 18.5em;
+    border-radius: 15px;
+    font-size: 2em;
+    right: 0.5em;
+}
+
+.wh1 {
+    width: 9.5em;
+    height: 8.5em;
+    background-color: green;
+    opacity: 0.4;
+    position: absolute;
+    left: 4em;
+    border-radius: 157px;
+    bottom: 36em;
+    visibility: hidden;
+}
+
+a i {
+    color: white;
+    visibility: hidden;
+}
+
+.col-sm:hover .wh1 {
+    visibility: visible;
+}
+
+.col-sm:hover i {
+    visibility: visible;
+}
+
+#fond3 {
+    background-image: url(../image/bg3.jpg);
+    background-size: 100vw;
+    background-attachment: fixed;
+    height: 30em;
+}
+
+.col {
+    margin-bottom: 1em;
+}
+
+.fleur {
+    width: 20em;
+}
+
+footer {
+    background-color: rgb(17, 158, 87);
+    height: 20em;
+    padding-top: 9em;
+}
+
+.cont {
+    text-align: center;
+    border: 1px white dashed;
+    width: 5em;
+    margin: auto;
+    color: white;
+    font-size: 4em;
+}
+
+#invisible {
+    visibility: hidden;
+}
+
+@media (max-width: 750px) {
+    #menu1 {
+        visibility: hidden;
+    }
+    #invisible {
+        visibility: visible;
+        position: fixed;
+        margin-top: 2em;
+    }
+}
