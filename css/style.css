@@ -4,7 +4,6 @@ header {
     background-image: url(../image/fdb.jpg);
     background-size: 100vw;
     height: 99.9vh;
-    background-repeat: no-repeat;
     margin-bottom: 1em;
     padding-top: 17em;
 }
@@ -174,6 +173,7 @@ a i {
     background-size: 100vw;
     background-attachment: fixed;
     height: 30em;
+    ba
 }
 
 .col {
@@ -208,23 +208,9 @@ footer {
     width: auto;
 }
 
-.glide__slides {
-    display: flex;
-    margin: auto;
-}
-
-.glide {
-    width: 80em;
-    height: 20em;
-}
-
 .glid {
     border: 2px white dashed;
     border-radius: 15px;
-}
-
-.glide__track {
-    width: 40em;
 }
 
 .con {
