@@ -1,3 +1,5 @@
+body {}
+
 header {
     background-image: url(../image/fdb.jpg);
     background-size: 100vw;
@@ -199,6 +201,34 @@ footer {
 
 #invisible {
     visibility: hidden;
+}
+
+.glide__slide {
+    list-style: none;
+    width: auto;
+}
+
+.glide__slides {
+    display: flex;
+    margin: auto;
+}
+
+.glide {
+    width: 80em;
+    height: 20em;
+}
+
+.glid {
+    border: 2px white dashed;
+    border-radius: 15px;
+}
+
+.glide__track {
+    width: 40em;
+}
+
+.con {
+    text-align: center;
 }
 
 @media (max-width: 750px) {
